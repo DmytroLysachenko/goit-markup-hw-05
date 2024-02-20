@@ -537,10 +537,10 @@
             </div>
           </div>
           <div class="modal-field-textarea">
-            <label for="comment" class="modal-label">Comment</label>
+            <label for="user-comment" class="modal-label">Comment</label>
             <textarea
-              name="comment"
-              id="comment"
+              name="user-comment"
+              id="user-comment"
               rows="7"
               class="modal-textarea"
               placeholder="Text input"
@@ -549,13 +549,15 @@
           </div>
           <div class="modal-field-checkbox">
             <input
-              class="modal-privacy-checkbox"
+              class="visually-hidden"
               type="checkbox"
-              name="privacy-checkbox"
-              id="privacy-checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
             />
-            <label class="modal-privacy-label" for="privacy-checkbox"
-              >I accept the terms and conditions of the
+            <label class="modal-privacy-label" for="user-privacy"
+              ><span class="modal-checkbox-span"></span> accept the terms and
+              conditions of the
               <a href="" class="modal-privacy-link">Privacy Policy</a></label
             >
           </div>
