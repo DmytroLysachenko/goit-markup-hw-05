@@ -578,7 +578,7 @@ body {
   display: flex;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   font-family: var(--font-family);
@@ -623,6 +623,7 @@ body {
   z-index: 1000;
 }
 .modal {
+  padding: 72px 24px 24px 24px;
   width: 408px;
   min-height: 584px;
   position: absolute;
@@ -656,6 +657,7 @@ body {
   position: absolute;
   top: 24px;
   right: 24px;
+  background-color: #e7e9fc;
 }
 .modal-close-icon {
   fill: #2e2f42;
@@ -665,6 +667,7 @@ body {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
+  border: none;
 }
 
 .modal-close-btn:hover .modal-close-icon {
