@@ -1,5 +1,10 @@
 /* #region general */
 
+:root {
+  --ocean: #404bbf;
+  --cloud: #f4f4fd;
+}
+
 h1,
 h2,
 h3,
@@ -790,22 +795,10 @@ body {
   fill: transparent;
 }
 
-#user-privacy:checked .modal-checkbox-span {
-  background-color: #404bbf;
+.modal-checkbox-input:checked + .modal-checkbox-span {
   border: none;
+  background-color: #404bbf;
   fill: #f4f4fd;
-}
-
-.modal-privacy-checkbox {
-  width: 16px;
-  height: 16px;
-  border-radius: 2px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-}
-
-.modal-privacy-checkbox:checked {
-  fill: #404bbf;
-  border: 1px solid #404bbf;
 }
 
 .modal-privacy-label {
@@ -815,7 +808,7 @@ body {
   color: #8e8f99;
 }
 
-.modal-privacy-link {
+.modal-privacy-label .modal-privacy-link {
   line-height: 133%;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -835,8 +828,7 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-submit-button:hover,
