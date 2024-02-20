@@ -1,10 +1,5 @@
 /* #region general */
 
-:root {
-  --ocean: #404bbf;
-  --cloud: #f4f4fd;
-}
-
 h1,
 h2,
 h3,
@@ -781,7 +776,7 @@ body {
   align-items: center;
 }
 
-.modal-checkbox-span {
+.modal-privacy-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -795,7 +790,7 @@ body {
   fill: transparent;
 }
 
-.modal-checkbox-input:checked + .modal-checkbox-span {
+.modal-privacy-input:checked + .modal-privacy-span {
   border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
