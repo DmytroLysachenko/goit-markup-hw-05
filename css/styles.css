@@ -562,6 +562,7 @@ body {
   width: 264px;
   height: 40px;
   background-color: transparent;
+  color: #fff;
 }
 
 .footer-input::placeholder {
