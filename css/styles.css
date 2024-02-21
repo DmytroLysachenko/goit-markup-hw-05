@@ -624,7 +624,7 @@ body {
   visibility: visible;
 }
 .modal {
-  padding-top: 72px;
+  padding: 72px 24px 24px 24px;
   width: 408px;
   min-height: 584px;
   position: absolute;
@@ -641,7 +641,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 24px;
 }
 .modal-close-btn {
   display: flex;
@@ -792,6 +791,7 @@ body {
 }
 
 input[type="checkbox"]:checked + .modal-privacy-label > .modal-privacy-span {
+  border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
 }
